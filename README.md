@@ -1,2 +1,2 @@
-#My Test
-This is my C language exercise.
+# My Test
+# This is my C language exercise.
