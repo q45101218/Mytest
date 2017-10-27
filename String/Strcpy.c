@@ -21,7 +21,7 @@ char* Strcpy(char* dest,const char* src)
 
 int main()
 {
-    char p1[]="we are famliy";
+    char p1[20]="weiy";
     char p2[]="helloworld";
     char* p3=Strcpy(p1,p2);
     printf("%s\n",p3);

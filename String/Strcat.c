@@ -25,7 +25,7 @@ char* Strcat(char* dest,const char* src)
 
 int main()
 {
-    char p1[]="qwer";
+    char p1[20]="qwer";
     char p2[]="asdf";
     printf("%s\n",Strcat(p1,p2));
     return 0;
