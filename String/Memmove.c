@@ -12,7 +12,7 @@ void* Memmove(void* dst,const void* src,size_t size)
     assert(dst);
     assert(src);
     void* ret=dst;
-    if(src>=dst||(char*)dst>=(char*)dst+size-1)
+    if(src>=dst||(char*)dst>=(char*)dst+size)
     {
         while(size--)
         *(char*)dst++=*(char*)src++;
